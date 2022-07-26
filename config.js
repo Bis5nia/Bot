@@ -2,11 +2,11 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 global.APIs = {
-	zenz: 'https://zenzapis.xyz',
+	zenz: 'http://wabot.6te.net',
 }
 
 global.APIKeys = {
-	'https://zenzapis.xyz': 'Your Key',
+	'http://wabot.6te.net': 'Your Key',
 }
 
 global.owner = ['6285721770694']
