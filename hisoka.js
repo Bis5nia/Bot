@@ -2279,7 +2279,10 @@ ${id}`)
 		if (!args[0]) throw `Contoh penggunaan:\n${prefix + command} 1 2\n\nmaka hasilnya adalah surah Al-Fatihah ayat 2 beserta audionya, dan ayatnya 1 aja`
 		if (!args[1]) throw `Contoh penggunaan:\n${prefix + command} 1 2\n\nmaka hasilnya adalah surah Al-Fatihah ayat 2 beserta audionya, dan ayatnya 1 aja`
 		let res = await fetchJson(`http://wabot.6te.net/asu/q.php?surah=${args[0]}&ayat=${args[1]}`)
-		m.reply(${res.result.data.translation.id}) 
+		let texti = `「 *Tafsir Surah*  」
+
+*Pendek* : ${res.result.data.translation.id} `
+		m.reply(texti) 
 		}
 		break
 		case 'tafsirsurah': {
