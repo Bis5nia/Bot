@@ -541,7 +541,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             }
             break
             case 'sc': {
-                m.reply('https://fb.me/bis5nia')
+                m.reply('Script : https://github.com/DikaArdnt/Hisoka-Morou\n\n Dont Forget Give Star\n\nDonate : 6281615075793 (Link Aja)\nSaweria : https://saweria.co/DikaArdnt\nPaypal : https://www.paypal.me/Cakhaho\n\n Dont Forget Donate')
             }
             break
             case 'chat': {
@@ -1374,7 +1374,7 @@ break
 	    break
 	       case 'attp': case 'ttp': {
            if (!text) throw `Example : ${prefix + command} text`
-           await hisoka.sendMedia(m.chat, `https://xteam.xyz/${command}?file&text=${text}`, 'hisoka', 'morou', m, {asSticker: true})
+           await hisoka.sendMedia(m.chat, `http://wabot.6te.net/${command}?file&text=${text}`, 'hisoka', 'morou', m, {asSticker: true})
 
          }
          break
@@ -3087,13 +3087,13 @@ let capt = `⭔ Title: ${judul}
 └───────⭓`
                 let btn = [{
                                 urlButton: {
-                                    displayText: 'link fb',
-                                    url: 'https://fb.me/bis5nia'
+                                    displayText: 'Source Code',
+                                    url: 'https://github.com/DikaArdnt/Hisoka-Morou'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+6285721770694'
+                                    phoneNumber: '+62 882-9202-4190'
                                 }
                             }, {
                                 quickReplyButton: {
