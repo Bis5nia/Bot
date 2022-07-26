@@ -2288,7 +2288,7 @@ ${id}`)
 		case 'tafsirsurah': {
 		if (!args[0]) throw `Contoh penggunaan:\n${prefix + command} 1 2\n\nmaka hasilnya adalah tafsir surah Al-Fatihah ayat 2`
 		if (!args[1]) throw `Contoh penggunaan:\n${prefix + command} 1 2\n\nmaka hasilnya adalah tafsir surah Al-Fatihah ayat 2`
-		let res = await fetchJson(`https://islamic-api-indonesia.herokuapp.com/api/data/quran?surah=${args[0]}&ayat=${args[1]}`)
+		let res = await fetchJson(`http://wabot.6te.net/asu/qq.php?islamic-api-indonesia.herokuapp.com/api/data/quran&surah=${args[0]}&ayat=${args[1]}`)
 		let txt = `「 *Tafsir Surah*  」
 
 *Pendek* : ${res.result.data.tafsir.id.short}
