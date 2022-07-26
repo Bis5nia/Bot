@@ -1,26 +1,17 @@
-/**
-   * Create By Dika Ardnt.
-   * Contact Me on wa.me/6288292024190
-   * Follow https://github.com/DikaArdnt
-*/
-
 const fs = require('fs')
 const chalk = require('chalk')
 
-// Website Api
 global.APIs = {
 	zenz: 'https://zenzapis.xyz',
 }
 
-// Apikey Website Api
 global.APIKeys = {
 	'https://zenzapis.xyz': 'Your Key',
 }
 
-// Other
-global.owner = ['6283167714830','6281382420312','6287721317870','6288292024190']
-global.premium = ['6288292024190']
-global.packname = 'Hisoka Morrow'
+global.owner = ['6285721770694']
+global.premium = ['6285721770694']
+global.packname = 'Tejo Hartono'
 global.author = 'WhatsApp Bot'
 global.sessionName = 'hisoka'
 global.prefa = ['','!','.','🐦','🐤','🗿']
